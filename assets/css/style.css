@@ -5694,7 +5694,7 @@ input[type=color] {
   border-bottom: 1px solid #f0f0f5;
 }
 .sidebar__widget ul li {
-  list-style: none;
+  list-style: square;
 }
 .sidebar__widget ul li:not(:last-child) {
   margin-bottom: 15px;
