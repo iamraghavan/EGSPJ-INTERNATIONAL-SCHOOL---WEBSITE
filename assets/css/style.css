@@ -10316,3 +10316,11 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* @media only screen 
+   and (min-width : 320px) {
+  .noneimg{
+      display: none ;
+    }
+} */
