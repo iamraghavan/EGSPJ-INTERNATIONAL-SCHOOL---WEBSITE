@@ -36,8 +36,8 @@
    </div> -->
 
 
-   <!-- <div id="g_id_onload" data-client_id="3531307553-up2kdnvi8e6s3g3742s7uefgjjtlu4ll.apps.googleusercontent.com"
-   data-login_uri="" data-callback="handleCredentialResponse" data-context="use"> -->
+   <div id="g_id_onload" data-client_id="3531307553-up2kdnvi8e6s3g3742s7uefgjjtlu4ll.apps.googleusercontent.com"
+   data-login_uri="" data-callback="handleCredentialResponse" data-context="use">
 
 
    <!-- <div id="g_id_onload"
@@ -152,7 +152,7 @@
                               <li class="has-dropdown">
                                  <a>ABOUT US</a>
                                  <ul class="submenu">
-                                    <li><a href="">Profile</a></li>
+                                    <li><a target="_blank" href="./profile.html">Profile</a></li>
                                     <li><a href="">Vision & Mission</a></li>
                                     <li><a href="">Chairman Message</a></li>
                                     <li><a href="">Principal Message</a></li>
@@ -761,7 +761,15 @@
          </div>
       </section>
       
-      
+      <style>
+        @media only screen 
+   and (min-width : 320px) {
+   .mapif{
+      width: 100px;
+      height: 50px;
+   }
+}
+      </style>
 
 
       <!-- cta area start -->
@@ -770,31 +778,15 @@
             <div class="cta__inner">
                <div class="row">
                   <div class="col-xxl-6 col-xl-6 col-lg-6">
-                     <div class="cta__item cta__item-border pt-40 pb-15 d-sm-flex align-items-start pr-110">
-                        <div class="cta__icon mr-30">
-                           <span>
-                              <svg width="40" height="40" viewbox="0 0 40 40" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M14.0801 0C8.84004 0 4.58002 4.26003 4.58002 9.50006C4.58002 14.6401 8.60004 18.8001 13.8401 18.9801C14.0001 18.9601 14.1601 18.9601 14.2801 18.9801C14.3201 18.9801 14.3401 18.9801 14.3801 18.9801C14.4001 18.9801 14.4001 18.9801 14.4201 18.9801C19.5401 18.8001 23.5601 14.6401 23.5801 9.50006C23.5801 4.26003 19.3201 0 14.0801 0Z"
-                                    fill="#192A88"></path>
-                                 <path
-                                    d="M24.2401 24.2998C18.6601 20.5798 9.56006 20.5798 3.94002 24.2998C1.40001 25.9998 0 28.2998 0 30.7598C0 33.2198 1.40001 35.4998 3.92002 37.1799C6.72004 39.0599 10.4001 39.9999 14.0801 39.9999C17.7601 39.9999 21.4401 39.0599 24.2401 37.1799C26.7602 35.4798 28.1602 33.1998 28.1602 30.7198C28.1402 28.2598 26.7602 25.9798 24.2401 24.2998Z"
-                                    fill="#192A88"></path>
-                                 <path
-                                    d="M35.0602 10.6802C35.3802 14.5603 32.6202 17.9603 28.8002 18.4203C28.7802 18.4203 28.7802 18.4203 28.7602 18.4203H28.7002C28.5802 18.4203 28.4602 18.4203 28.3602 18.4603C26.4202 18.5603 24.6402 17.9403 23.3002 16.8003C25.3602 14.9603 26.5402 12.2002 26.3002 9.20023C26.1602 7.58022 25.6002 6.10021 24.7602 4.8402C25.5202 4.4602 26.4002 4.2202 27.3002 4.1402C31.2202 3.8002 34.7202 6.72021 35.0602 10.6802Z"
-                                    fill="#FF7648"></path>
-                                 <path
-                                    d="M39.0602 29.1799C38.9002 31.1199 37.6602 32.7999 35.5802 33.9399C33.5802 35.0399 31.0602 35.5599 28.5602 35.4999C30.0002 34.1999 30.8402 32.5799 31.0002 30.8599C31.2002 28.3799 30.0202 25.9998 27.6601 24.0998C26.3201 23.0398 24.7601 22.1998 23.0601 21.5798C27.4801 20.2998 33.0402 21.1598 36.4602 23.9198C38.3002 25.3998 39.2402 27.2599 39.0602 29.1799Z"
-                                    fill="#FF7648"></path>
-                              </svg>
-                           </span>
+                     <div class="cta__item cta__item-border pt-40 pb-15 d-sm-flex align-items-start pr-60">
+                        <div class="postbox__quote grey-bg-2 mb-45 p-relative fix">
+                           <img class="quote" src="assets/img/blog/quote-1.png" alt="">
+                           <blockquote>
+                              <p>Education is one thing no one can take away from you.</p>
+                              <h4>Elin Nordegren</h4>
+                           </blockquote>
                         </div>
-                        <div class="cta__content">
-                           <h3 class="cta__title">Become an Instructor</h3>
-                           <p>Teach what you love. Learned gives you neccessary tools to become an instructor.</p>
-                           <a href="contact.html" class="tp-btn tp-btn-3">Start Teaching</a>
-                        </div>
+                        
                      </div>
                   </div>
                   <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -814,7 +806,7 @@
                         </div>
                         <div class="cta__content">
                            <h3 class="cta__title">Apply for Admission</h3>
-                           <p>Course completed? Then its time apply the certificate Do it in simplesteps with Learned.
+                           <p>Don't miss your chance, apply for admission today!
                            </p>
                            <a href="contact.html" class="tp-btn tp-btn-4">Apply Now</a>
                         </div>
@@ -835,24 +827,23 @@
             <div class="container">
                <div class="row">
                   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
-                     <div class="footer__widget footer-col-1 mb-50">
+                     <div class="footer__widget  mb-20">
                         <div class="footer__logo">
                            <div class="logo">
                               <a href="index.html">
-                                 <img src="assets/img/logo/logo.png" alt="">
+                                 <img src="./assets/img/logo/EGSPJ-International-School-Nagapattinam-Logo.png" alt="">
                               </a>
                            </div>
                         </div>
                         <div class="footer__widget-content">
                            <div class="footer__widget-info">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Nunc maximus, nulla utlaoki
-                                 comm odo sagittis.</p>
+                              <p>The school is evolving its own teaching-learning system, keeping in mind the psychological needs of the children and the current educational trends.</p>
                               <div class="footer__social">
                                  <h4>Follow Us</h4>
 
                                  <ul>
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                  </ul>
                               </div>
@@ -864,27 +855,28 @@
                      <div class="footer__widget mb-50">
                         <h3 class="footer__widget-title">Explore</h3>
                         <div class="footer__widget-content">
+                           
                            <ul>
                               <li>
-                                 <a href="#">About us</a>
+                                 <a target="_blank" href="./profile.html">Profile</a>
                               </li>
                               <li>
-                                 <a href="#">Success story</a>
+                                 <a href="#">Vision & Mission</a>
                               </li>
                               <li>
-                                 <a href="#">Courses</a>
+                                 <a href="#">Chairman Message</a>
                               </li>
                               <li>
-                                 <a href="#">About us</a>
+                                 <a href="#">Principal Message</a>
                               </li>
                               <li>
-                                 <a href="#">Instructor</a>
+                                 <a href="#">Academic Support System</a>
                               </li>
                               <li>
-                                 <a href="#">Events</a>
+                                 <a href="#">Academic Facilities</a>
                               </li>
                               <li>
-                                 <a href="#">Contact us</a>
+                                 <a href="#">Teaching Methodology</a>
                               </li>
                            </ul>
                         </div>
@@ -934,13 +926,13 @@
                            </form>
                         </div>
                      </div>
-                     <div class="cta__item  pt-1  d-sm-flex align-items-start">
+                     <div class="cta__item   d-sm-flex align-items-start">
 
                         <div style="
-                                    padding-left: 28px;
+                                    padding-left: 8px;
                               " class="d-flex flex-row mt-3 exp-container"><img
                               style="border-radius: 50%; width: 60px; height: auto;" id="userProfile">
-                           <div style="padding-left:10px;">
+                           <div style="padding-left:10px;padding-top: 7px ">
                               <div class="work-experience ml-1"><span class=" d-block cta__title"
                                     id="username"></span><span class="d-block cta__content " id="usermail"></span>
                                  <span class="d-block text-white labels" id="profile"></span>
@@ -964,7 +956,7 @@
                   <div class="row">
                      <div class="col-xxl-12">
                         <div class="footer__copyright text-center">
-                           <p>© 2023 EGSPJ INTERNATIONAL SCHOOL. All Rights Reserved</p>
+                           <p>© 2023 EGSPJ INTERNATIONAL SCHOOL - All Rights Reserved</p>
                         </div>
                      </div>
                   </div>
