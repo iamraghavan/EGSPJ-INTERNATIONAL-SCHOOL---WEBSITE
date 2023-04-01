@@ -1448,8 +1448,8 @@ input[type=color] {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .header__bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1594,7 +1594,7 @@ input[type=color] {
 }
 .main-menu ul li a {
   display: inline-block;
-  font-size: 14.9px;
+  font-size: 14.6px;
   color: var(--tp-common-black-2);
   padding: 23px 0;
 }
@@ -1619,7 +1619,7 @@ input[type=color] {
   position: absolute;
   top: 120%;
   left: 0;
-  width: 200px;
+  width: 300px;
   padding: 17px 0;
   padding-bottom: 15px;
   background: var(--tp-common-white);
@@ -1677,10 +1677,12 @@ input[type=color] {
   opacity: 0;
 }
 .main-menu ul li .submenu li:hover > a {
-  color: var(--tp-theme-1);
+  color: var(--tp-common-white);
+  background-color: var(--tp-text-5);
 }
 .main-menu ul li .submenu li:hover > a::after {
   color: var(--tp-theme-1);
+
 }
 .main-menu ul li .submenu li:hover > a::before {
   left: 0;
